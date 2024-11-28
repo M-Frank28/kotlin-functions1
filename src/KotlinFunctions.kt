@@ -1,6 +1,10 @@
 fun main (){
-    println(birthdayGreeting("Rover",30))
-    println(birthdayGreeting("Rex",25))
+//    println(birthdayGreeting(name = "Rover", age =33))
+//    println(birthdayGreeting("Rex",25))
+
+    //named argument
+    val greeting = birthdayGreeting(name = "Rover", age =33)
+    println(greeting)
 }
 
 //Defining a function //passed name and age parameter
